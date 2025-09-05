@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "EJERCICIO 1 - URLInfo",
+      "request": "launch",
+      "mainClass": "edu.eci.networking.URLInfo",
+      "projectName": "url-exercises"
+    },
+    {
+      "type": "java",
+      "name": "EJERCICIO 2 - SimpleBrowser",
+      "request": "launch",
+      "mainClass": "edu.eci.networking.SimpleBrowser",
+      "projectName": "url-exercises",
+      "args": ""
+    }
+  ]
+}

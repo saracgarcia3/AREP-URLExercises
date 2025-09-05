@@ -1,0 +1,8 @@
+
+/target/
+*.class
+*.log
+*.iml
+.idea/
+.vscode/settings.json
+resultado.html
