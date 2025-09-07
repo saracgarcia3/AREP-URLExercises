@@ -1,6 +1,6 @@
 # 🌐 URL Exercises 
 
-Este repositorio contiene dos ejercicios básicos en **Java** para trabajar con la clase `URL` y la lectura de páginas web.  
+Este repositorio contiene dos ejercicios básicos en **Java** para trabajar con la clase `URL` y Sockets.
 
 ## 📝 Ejercicio 1 — URLInfo
 Este ejercicio pide una **URL** y muestra cada parte desglosada usando los métodos de `java.net.URL`.
@@ -24,3 +24,40 @@ Este programa funciona como un mini navegador por consola:
 <p align="center">
 <img width="575" height="210" alt="image" src="https://github.com/user-attachments/assets/06ee628f-1787-4f3a-ad34-c41a5747b563" />
 </p>
+
+- Vemos el resultado en **resultado.html**
+
+<p align="center">
+<img width="708" height="356" alt="image" src="https://github.com/user-attachments/assets/f9ad9ece-b232-4a63-a750-fdebcc28d104" />
+</p>
+
+# 🔢 Cliente-Servidor en Java: Sockets
+
+## 📝 Ejercicio 1 — Square Calculator
+
+ El servidor recibe un número enviado por el cliente y responde con su **cuadrado**.
+
+ ▶️ Ejecutar desde la terminal
+
+ 1. Abrimos una terminal para el servidor y otra para el cliente:
+
+    - Para ejecutar la del servidor usamos:
+
+```bash
+mvn -q -Dexec.mainClass=edu.eci.networking.SquareServer exec:java
+```
+<p align="center">
+<img width="918" height="47" alt="image" src="https://github.com/user-attachments/assets/18153fa9-4e56-48c8-82ac-ea3970c71355" />
+</p>
+
+- Para el cliente usamos otra terminal y usamos el siguiente comando, luego de hacerlo el sistema nos pide un numero y se da el cuadrado de este:
+
+```bash
+mvn -q -Dexec.mainClass=edu.eci.networking.SquareClient exec:java
+```
+<p align="center">
+<img width="920" height="98" alt="image" src="https://github.com/user-attachments/assets/f2546a6c-5284-4ef0-95e9-a3391ff78f90" />
+</p>
+
+  
+
