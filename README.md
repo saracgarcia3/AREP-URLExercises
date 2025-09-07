@@ -59,5 +59,31 @@ mvn -q -Dexec.mainClass=edu.eci.networking.SquareClient exec:java
 <img width="920" height="98" alt="image" src="https://github.com/user-attachments/assets/f2546a6c-5284-4ef0-95e9-a3391ff78f90" />
 </p>
 
+## 📝 Ejercicio 2 — Function Server (sin/cos)
+
+El servidor aplica una función trigonométrica sobre los números recibidos.Por defecto comienza con coseno, pero se puede cambiar a seno o regresar a coseno enviando comandos desde el cliente.
+
+ ▶️ Ejecutar desde la terminal
+
+ 1. Abrimos una terminal para el servidor y otra para el cliente:
+
+    - Para ejecutar la del servidor usamos:
+
+```bash
+mvn -q -Dexec.mainClass=edu.eci.networking.FunctionServer exec:java
+```
+<p align="center">
+<img width="938" height="51" alt="image" src="https://github.com/user-attachments/assets/0b3e584c-967b-4bbb-8ec2-36cca8d6c3a6" />
+</p>
+
+- Para el cliente usamos otra terminal y usamos el siguiente comando, luego de hacerlo el sistema nos pide un numero o si se prefiere de una vez cambiar la función, fun:sin o fun:cos:
+
+```bash
+mvn -q -Dexec.mainClass=edu.eci.networking.FunctionClient exec:java
+```
+<p align="center">
+<img width="937" height="303" alt="image" src="https://github.com/user-attachments/assets/7ae5456e-2e53-42c9-852a-dd42e152c2c0" />
+</p>
+
   
 
